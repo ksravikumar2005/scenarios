@@ -12,6 +12,11 @@ Step 2: Verify built image using the command
   
    `docker image ls`{{execute}}
 
+You should see something like
+
+	REPOSITORY          TAG                 IMAGE ID            CREATED              SIZE
+	mongodb             latest              110de158c076        About a minute ago   796MB
+
 NOTE: This image is available locally and is not pushed to any Docker image repository. To push this image to a specific image repository, please follow the tag and push instructions specific to that repository.
 
 
