@@ -1,7 +1,7 @@
  Lets simulate a failure  by shutting down the docker service on Host02
 
- `systemctl stop docker`{{execute HOST02}}
-
+`systemctl stop docker`{{execute HOST02}}
+`service docker stop`{{execute HOST02}}
 Verify the docker service is stopped on Host02
  `systemctl stop docker`{{execute HOST02}}
  `docker service ls`{{execute HOST1}}
