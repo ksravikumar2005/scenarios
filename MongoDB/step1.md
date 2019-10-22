@@ -32,7 +32,7 @@ Step 8: type "quit" to exit the mongo shell and type "exit" to leave the contain
 
 Step 9: Stop the container using the command
 
-`docker stop myfirstmongo && docker rm myfirst mongo`{{execute}}
+`docker stop myfirstmongo && docker rm myfirstmongo`{{execute}}
 
 Step 10: You have successfully deployed MongoDB on Docker in less than 5 minutes!
 
