@@ -6,6 +6,8 @@ An image tag like this: ksravikumar2005/mongodb:latest is an example of an image
 
   `docker build -t mongodb:latest .`{{execute}}
 
+This might take a few minutes as the Docker build process will download all CentOS base image and other dependencies listed in the Dockerfile.
+
 Step 2: Verify built image using the command
   
    `docker image ls`{{execute}}
