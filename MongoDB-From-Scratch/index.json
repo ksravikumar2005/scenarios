@@ -6,19 +6,19 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Clone the Dockerfile from Git",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Build and Verify the Docker Image",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Run the Docker Image",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Cleanup...",
         "text": "step4.md"
       }
     ],
