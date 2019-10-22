@@ -32,7 +32,9 @@ On the worker node
 Now, you will see the new worker node added to the swarm and
 
 `docker node ls`{{execute HOST1}}
-Create Overlay Network
+## Create Overlay Network
 
-`docker network create -d overlay mongodb`{{execute}}
+This is used to create a docker network that spans across the nodes for the containers on these nodes to talk to each other.
+
+`docker network create -d overlay mongodb`{{execute HOST1}}
 
