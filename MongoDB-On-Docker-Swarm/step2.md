@@ -9,15 +9,15 @@ Download the required stack files for running the docker swarm by cloning
 
 View the contents of the mongo-stack.yml file and you will see 2 services (mongodb1 and mongodb2) defined.
 
-`cat mongo-stack.yml`{{execute HOST1}
+`cat mongo-stack.yml`{{execute HOST1}}
 
 Deploy these services to the docker swarm using the command below
 
-`docker stack deploy -c mongo-stack.yml mongodb`{{execute HOST1}
+`docker stack deploy -c mongo-stack.yml mongodb`{{execute HOST1}}
 
 To view the staus of the deployed services, use the command
 
-`docker stack ps mongodb`{{execute HOST1}
+`docker stack ps mongodb`{{execute HOST1}}
 
 This will display on which node each service is currently running.
 
