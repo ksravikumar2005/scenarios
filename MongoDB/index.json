@@ -1,6 +1,6 @@
 {
   "title": "My First MongoDB Container",
-  "description": "My First MongoDB Container",
+  "description": "Get your first MongoDB Container up and running in Docker in less than 5 minutes.",
   "difficulty": "Beginner",
   "time": "< 5 minutes",
   "details": {
