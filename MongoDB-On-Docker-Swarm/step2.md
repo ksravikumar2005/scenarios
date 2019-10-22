@@ -19,5 +19,11 @@ To view the staus of the deployed services, use the command
 
 `docker stack ps mongodb`{{execute HOST1}}
 
+Initiall, all the services will be seen in "Preparing.." state, Wait for a few seconds as the specified MongoDB image is being downloaded to each node.
+
+Try again: 
+
+`docker stack ps mongodb`{{execute HOST1}}
+
 This will display on which node each service is currently running.
 
