@@ -28,9 +28,9 @@ Step 6: Login to the container shell and execute mongo OR execute the below comm
 
 Step 7: Type "show databases" to view all the default databases
 
-Step 8: type "exit" to exit the mongo shell and type "exit" again to leave the container
+Step 8: type "exit" to exit the mongo shell
 
 Step 9: Stop the container using the command
 
-`docker stop myfirstmongo && docker rm myfirst mongo`{{execute}}
+`docker stop myfirstmongo && docker rm myfirstmongo`{{execute}}
 
