@@ -5,4 +5,4 @@
 2.  Switch to the mongodb directory and view the contenets of the Dockerfile
 
 `cd mongodb`{{execute}}
-`ls -l` 
+`ls -l`{{execute}}
