@@ -1,5 +1,3 @@
-For the Impatient:
-
 To quickly get a single instance of the MongoDB up and Running, follow the steps below.
 
 Step 1: Create a directory on the Docker Host and Change the ownership to match the uid and gid of the mongodb user inside the container. This step is optional and is needed only to persist the mongodb data on the docker host.
