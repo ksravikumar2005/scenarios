@@ -4,6 +4,7 @@ To quickly get a single instance of the MongoDB up and Running, follow the steps
 
 Step 1: Create a directory on the Docker Host and Change the ownership to match the uid and gid of the mongodb user inside the container. This step is optional and is needed only to persist the mongodb data on the docker host.
 `echo 'mkdir -p /data/db; chown -R 1000:1000 /data/db'`{{execute}}
+`echo 'Hello World'`{{execute}}
 
 Step 2: Run a prebuilt docker image for mongodb from docker hub which uses the host volume created in step 1 and exposing the port 27017 on the host which maps to the port 27017 on the docker container.
 
