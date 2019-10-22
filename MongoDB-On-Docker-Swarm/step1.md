@@ -23,12 +23,15 @@ You will see that our swarm has only one node and that is the leader. To join no
 Use this command to fetche the join-token from the host01 and uses it on the host02 to join it as a worker node
 
 
-`token=$(ssh -o StrictHostKeyChecking=no 172.17.0.11 "docker swarm join-token -q worker") && echo $token`{{execute HOST2}}
+`token=$(ssh -o StrictHostKeyChecking=no host01  "docker swarm join-token -q worker") && echo $token`{{execute HOST2}}
 
 On the worker node
 
-`docker swarm join 172.17.0.11:2377 --token $token`{{execute HOST2}}
+`docker swarm join host01:2377 --token $token`{{execute HOST2}}
 
+Now, you will see the new worker node added to the swarm and
+
+`docker node ls`{{execute HOST1}}
 Create Overlay Network
 
 `docker network create -d overlay mongodb`{{execute}}
