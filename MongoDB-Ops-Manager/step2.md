@@ -27,4 +27,5 @@ This will display on which node each service is currently running.
 To verify the mongo containers on each node, execute the below command.
 
 host01: `docker ps`{{execute HOST01}}
+
 host02: `docker ps`{{execute HOST02}}

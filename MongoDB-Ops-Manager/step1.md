@@ -2,9 +2,9 @@
 NOTE: The terminal on the top from host01 and the at the bottom is host02 
 Verify the hostnames with the following commands:
 
-`hostname`{{execute HOST1}}
+host01: `hostname`{{execute HOST1}}
 
-`hostname`{{execute HOST2}}
+host02: `hostname`{{execute HOST2}}
 
 ## Run this command to initialize swarm, this command would run on host1
 
@@ -32,5 +32,4 @@ On the worker node
 Now, you will see the new worker node added to the swarm and
 
 `docker node ls`{{execute HOST1}}
-## Create Overlay Network
 

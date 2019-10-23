@@ -10,7 +10,7 @@ Deploy these services to the docker swarm using the command below
 
 Check the status of the OPS Manager service using the below command
 
-`docker service logs --follow opsmanager_opsmanager`{{execute}
+`docker service logs --follow opsmanager_opsmanager`{{execute HOST1}
 
 The output should look like this - this might take about 5 - 8 minutes depending on the internet bandwidth, etc.,
 
