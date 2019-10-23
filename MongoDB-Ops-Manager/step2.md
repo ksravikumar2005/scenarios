@@ -1,4 +1,3 @@
-# Running MongoDB instances needed for OPS Manager  as a service:
 With Docker Swarm, the mongodb can be deployed as a service and having multiple nodes will ensure the service availability has minimal impact. This demo is only meant to highlight the features of Docker swarm to maintain service availability.
 
 Download the required stack files for running the docker swarm by cloning
@@ -19,9 +18,7 @@ To view the staus of the deployed services, use the command
 
 `docker stack ps opsmanager`{{execute HOST1}}
 
-Initiall, all the services will be seen in "Preparing.." state, Wait for a few seconds as the specified MongoDB image is being downloaded to each node.
-
-Try again: 
+Initiall, all the services will be seen in "Preparing.." state, Wait for a few seconds as the specified MongoDB image is being downloaded to each node. Try again: 
 
 `docker stack ps opsmanager`{{execute HOST1}}
 
@@ -29,5 +26,5 @@ This will display on which node each service is currently running.
 
 To verify the mongo containers on each node, execute the below command.
 
-`docker ps`{{execute HOST01}}
-`docker ps`{{execute HOST02}}
+host01: `docker ps`{{execute HOST01}}
+host02: `docker ps`{{execute HOST02}}

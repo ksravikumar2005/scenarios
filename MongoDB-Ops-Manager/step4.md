@@ -14,7 +14,6 @@ Email Address: Enter an email address, you can get a disposable email address at
 Password: Enter a password that meets the requirements specified
 Check Box: Check it to agree to the Evaluation Agreement
 Under the Web Server section:
-
 URL To Access Ops Manager: http://[[HOST_SUBDOMAIN]]-18080-[[KATACODA_HOST]].environments.katacoda.com
 
 Ignore the rest of the fields and move to the next section: Email
