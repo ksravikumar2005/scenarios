@@ -26,6 +26,31 @@
       "course_id": "MongoDB-Ops-Manager",
       "title": "MongoDB OpsManager",
       "description": "Deploy and Manage MongoDB instance(s) on Docker Swarm with Mongo Ops Manager"
+    },
+    {
+      "course_id": "My-First-MongoDB-Pod",
+      "title": "Coming Soon.. My First Mongo Pod on Kubernetes",
+      "description": "Running a MongoDB instance as a pod on Kubernets"
+    },
+    {
+      "course_id": "My-First-MongoDB-Deployment",
+      "title": "Coming Soon.. My First Mongo Deployment on Kubernetes",
+      "description": "Learn how to run Mongo as a Kubernetes Deployment"
+    },
+    {
+      "course_id": "My-First-MongoDB-Statefulset",
+      "title": "Coming Soon.. My First MongoDB statefulset on Kubernetes",
+      "description": "Learn how to run MongoDB as a Kubernetes Statefulset"
+    },
+    {
+      "course_id": "MongoDB-CloudManager",
+      "title": "Coming Soon.. Setup an instance of MongoDB Cloud Manager",
+      "description": "Setup MongoDB Cloud Manager to Manage On-Prem MongoDB Deployments"
+    },
+    {
+      "course_id": "MongoDB-OpsManager-On-Kubernetes",
+      "title": "Coming Soon.. Run MongoDB OpsManager on Kubernetes",
+      "description": "Learn how to setup and configure MongoDB OpsManager on Kubernetes"
     }
   ]
 }
