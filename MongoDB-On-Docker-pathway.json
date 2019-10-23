@@ -1,6 +1,6 @@
 {
-  "title": "MongoDB on Docker",
-  "description": "Running MongoDB  using Docker Containers",
+  "title": "Introduction to MongoDB on Docker",
+  "description": "Learn how to run MongoDB using Docker Containers",
   "courses": [
     {
       "course_id": "MongoDB",
