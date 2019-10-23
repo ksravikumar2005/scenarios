@@ -1,0 +1,31 @@
+{
+  "title": "MongoDB on Docker",
+  "description": "Running MongoDB  using Docker Containers",
+  "courses": [
+    {
+      "course_id": "MongoDB",
+      "title": "My First MongoDB Container",
+      "description": "Get your first MongoDB Container up and running in Docker in less than 5 minutes."
+    },
+    {
+      "course_id": "MongoDB-From-Scratch",
+      "title": "MongoDB container from Scratch",
+      "description": "Build your first MongoDB Container from scratch and get it up and running in less than 10 minutes."
+    },
+    {
+      "course_id": "MongoDB-On-Docker-Swarm",
+      "title": "MongoDB on Multinode Docker Swarm without Authentication",
+      "description": "MongoDB as a service on Docker Swarm"
+    },
+    {
+      "course_id": "MongoDB-On-Docker-Swarm-with-Authentication",
+      "title": "MongoDB on Multinode Docker Swarm with Authentication",
+      "description": "MongoDB as a service on Docker Swarm"
+    },
+    {
+      "course_id": "MongoDB-Ops-Manager",
+      "title": "MongoDB OpsManager",
+      "description": "Deploy and Manage MongoDB instance(s) on Docker Swarm with Mongo Ops Manager"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "title": "MongoDB container from Scratch",
+  "description": "Build your first MongoDB Container from scratch and get it up and running in less than 10 minutes.",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Clone the Dockerfile from Git",
+        "text": "step1.md"
+      },
+      {
+        "title": "Build and Verify the Docker Image",
+        "text": "step2.md"
+      },
+      {
+        "title": "Run the Docker Image",
+        "text": "step3.md"
+      },
+      {
+        "title": "Cleanup...",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "title": "MongoDB on Multinode Docker Swarm with Authentication",
+  "title": "MongoDB on Multinode Docker Swarm without Authentication",
   "description": "MongoDB as a service on Docker Swarm",
   "difficulty": "Intermediate",
   "time": "15 minutes",
@@ -10,7 +10,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Deploy a Docker Stackt with 2 Mongo Services with initial admin username and password",
+        "title": "Deploy a Docker Stackt with 2 Mongo Services",
         "text": "step2.md"
       },
       {

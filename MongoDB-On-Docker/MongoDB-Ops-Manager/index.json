@@ -1,0 +1,46 @@
+{
+  "title": "MongoDB OpsManager",
+  "description": "Deploy and Manage MongoDB instance(s) on Docker Swarm with Mongo Ops Manager",
+  "difficulty": "Intermediate",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Setup a 2 Node Docker Swarm",
+        "text": "step1.md"
+      },
+      {
+        "title": "Deploy a Docker Stack with 2 Mongo Services for Ops Manager",
+        "text": "step2.md"
+      },
+      {
+        "title": "Deploy Ops Manager",
+        "text": "step3.md"
+      },
+      {
+        "title": "Verify Ops Manager UI",
+        "text": "step4.md"
+      },
+      {
+        "title": "Deploy and Setup  Automation Agents",
+        "text": "step5.md"
+      },
+      {
+        "title": "Create MongoDB Deployments using the OPS Manager and Verify them on the docker hosts",
+        "text": "step6.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-terminal"
+  },
+  "backend": {
+    "imageid": "docker-swarm"
+  }
+}
