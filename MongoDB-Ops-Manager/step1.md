@@ -1,4 +1,5 @@
-# Create Swarm Cluster
+Create Swarm Cluster
+
 NOTE: The terminal on the top from host01 and the at the bottom is host02 
 Verify the hostnames with the following commands:
 
@@ -7,7 +8,6 @@ host01: `hostname`{{execute HOST1}}
 host02: `hostname`{{execute HOST2}}
 
 ## Run this command to initialize swarm, this command would run on host1
-
 
 `docker swarm init`{{execute HOST1}}
 
