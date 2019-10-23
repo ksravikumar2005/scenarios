@@ -1,5 +1,5 @@
 {
-  "title": "Get MongoDB Up and running on Multinode Docker Swarm",
+  "title": "MongoDB on Multinode Docker Swarm with Authentication",
   "description": "MongoDB as a service on Docker Swarm",
   "difficulty": "Intermediate",
   "time": "15 minutes",
