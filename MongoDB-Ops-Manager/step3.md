@@ -1,15 +1,26 @@
- Lets simulate a failure  by shutting down the docker service on Host02 by entering the below commannd on the terminal of host02
+Now, its time for us to bring up the ops manager container
 
-systemctl stop docker
+View the contents of the docker-stack-opsmanager.yml file and you will see a service opsmanager  defined.
 
-Verify the docker service is stopped on Host02
+`cat docker-stack-opsmanager.yml`{{execute HOST1}}
 
- `docker ps`{{execute HOST2}}
+Deploy these services to the docker swarm using the command below
 
-Now, lets verify the status of our mongo services
+`docker stack deploy -c docker-stack-opsmanager.yml opsmanager`{{execute HOST1}}
 
- `docker stack ps mongodb`{{execute HOST1}}
+To view the staus of the deployed services, use the command
 
-Give it a few seconds and verify again
+`docker stack ps opsmanager`{{execute HOST1}}
 
- `sleep 15; docker stack ps mongodb`{{execute HOST1}}
+Initiall, all the services will be seen in "Preparing.." state, Wait for a few seconds as the specified OpsManager image is being downloaded to the node.
+
+Try again: 
+
+`docker stack ps opsmanager`{{execute HOST1}}
+
+This will display on which node each service is currently running.
+
+To verify the mongo containers on each node, execute the below command.
+
+`docker ps`{{execute HOST01}}
+`docker ps`{{execute HOST02}}
