@@ -1,6 +1,6 @@
 {
   "title": "MongoDB OpsManager",
-  "description": "Deploy and Manage MongoDB instance(s) on Docker Swarm",
+  "description": "Deploy and Manage MongoDB instance(s) on Docker Swarm with Mongo Ops Manager",
   "difficulty": "Intermediate",
   "time": "30 minutes",
   "details": {
