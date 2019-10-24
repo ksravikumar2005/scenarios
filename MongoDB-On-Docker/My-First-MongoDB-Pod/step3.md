@@ -15,6 +15,7 @@ To check the status of the newly created pod, use
 Initially, you will see that the pod status is not ready as Kubernetes is busy doing its background work needed to bring up the pod.
 
 NAME      READY   STATUS             RESTARTS   AGE
+
 mongodb   0/1     ContainerCreating             2m33s
 
 Once everything is ready, should see the status as
@@ -22,6 +23,7 @@ Once everything is ready, should see the status as
 `kubectl get pods`{{execute}}
 
 NAME      READY   STATUS    RESTARTS   AGE
+
 mongodb   1/1     Running   0          2m33s
 
 
@@ -36,17 +38,3 @@ To use the mongo client, execute
 NOTE: mongodb is the server process and mongo is the database client.
 
 At the mongo shell, execute the command "show databases" view the databases created and type "exit" to exit the mongo shell.
-
-To cleanup, execute
-
-`kubectl delete -f mongodb-pod-definition.yaml -f mongodb-datadb-pvc.yaml -f mongodb-datadb-pv.yaml`{{execute}}
-
-To bring up the whole setup again, you can use the command
-
-kubectl create  -f mongodb-pod-definition.yaml -f mongodb-datadb-pvc.yaml -f mongodb-datadb-pv.yaml
-
-To confirm the cleanup
-
-`kubectl get pods,pv,pvc`{{execute}}
-
-
