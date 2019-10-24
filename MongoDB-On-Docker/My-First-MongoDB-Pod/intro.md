@@ -9,4 +9,4 @@
 7. Connect and list the default databases available
 8. Cleanup
 
-
+NOTE: This is a simple scenario to understnd how easily an instance of MongoDB can be stood up on Kubernetes. This scenario uses the "default" kubernetes namespace.

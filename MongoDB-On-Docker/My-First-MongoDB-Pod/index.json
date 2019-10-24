@@ -6,19 +6,19 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Create a PersistentVolume",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Create a PersistentVolumeClaim",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Stand up your first MongoDB pod",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Cleanup",
         "text": "step4.md"
       }
     ],
