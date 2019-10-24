@@ -1,6 +1,8 @@
 
 View the Kubernetes Nodes available for us to use.
 
+NOTE: It might take a minute or two for the kubernetes cluster to get ready to use. 
+
 `kubectl get nodes`{{execute}}
 
 Clone the git repo that has files to get started.
@@ -12,6 +14,7 @@ Clone the git repo that has files to get started.
 Create a directory on local file system to persist the mongodb data files and change the ownership to 1000:1000 as the mongodb userid:groupid used in the image is 1000:1000
 
 `mkdir -p /tmp/uservolumes/mongo-datadb`{{execute}}
+
 `chown -R 1000:1000 /tmp/uservolumes/mongo-datadb`{{execute}}
 
 Create a Kubernetes PersistentVolume using the mongodb-datadb-pv.yaml
@@ -21,6 +24,7 @@ Create a Kubernetes PersistentVolume using the mongodb-datadb-pv.yaml
 For more details on the newly created PersistentVolume
 
 `kubectl get pv`{{execute}}
+
 `kubectl describe persistentvolume/mongodb-datadb-pv`{{execute}}
 
 
