@@ -6,6 +6,7 @@ View the Kubernetes Nodes available for us to use.
 Clone the git repo that has files to get started.
 
 `git clone https://github.com/ksravikumar2005/mongodb-k8s.git`{{execute}}
+
 `cd mongodb-k8s/`{{execute}}
 
 Create a directory on local file system to persist the mongodb data files and change the ownership to 1000:1000 as the mongodb userid:groupid used in the image is 1000:1000
