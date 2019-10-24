@@ -1,7 +1,7 @@
 
 View the Kubernetes Nodes available for us to use.
 
-`kubectl get nodes`{{execute}
+`kubectl get nodes`{{execute}}
 
 Clone the git repo that has files to get started.
 
