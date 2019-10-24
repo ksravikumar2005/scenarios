@@ -29,7 +29,7 @@
     },
     {
       "course_id": "My-First-MongoDB-Pod",
-      "title": "Coming Soon.. My First Mongo Pod on Kubernetes",
+      "title": "Stand up your first MongoDB Pod on Kubernetes",
       "description": "Running a MongoDB instance as a pod on Kubernets"
     },
     {
