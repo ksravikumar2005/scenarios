@@ -1,15 +1,19 @@
 
-With the necessary volume objects in place, we are now ready to bring up the first Mongodb. Take a few seconds to see the pod definition
+With the necessary volumes in place, we are now ready to bring up the first Mongodb Deployment. Take a few seconds to see the pod definition
 
-`cat mongodb-pod-definition.yaml`{{execute}}
+`cat mongodb-pod-definition.yaml`{{execute HOST1}}
 
 Launch the pod
 
-`kubectl create -f mongodb-pod-definition.yaml`{{execute}}
+`kubectl create -f mongodb-deployment.yaml`{{execute HOST1}}
+ 
+To check the status of the newly created deployment, use
+
+`kubectl get deployments`{{execute HOST1}}
 
 To check the status of the newly created pod, use
 
-`kubectl get pods`{{execute}}
+`kubectl get pods`{{execute HOST1}}
 
 
 Initially, you will see that the pod status is not ready as Kubernetes is busy doing its background work needed to bring up the pod.
@@ -25,14 +29,7 @@ Once everything is ready, should see the status as
 	mongodb   1/1     Running   0          2m33s
 
 
-To get a detailed description of the newly created pod, use 
+To get a detailed description of the newly created deployment, use 
 
-`kubectl describe pod/mongodb`{{execute}}
+`kubectl describe deploy/mongodb-deployment`{{execute}}
 
-To use the mongo client, execute
-
-`kubectl exec -it mongodb mongo`{{execute}}
-
-NOTE: mongodb is the server process and mongo is the database client.
-
-At the mongo shell, execute the command "show databases" view the databases created and type "exit" to exit the mongo shell.

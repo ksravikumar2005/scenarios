@@ -18,15 +18,15 @@ On host1:
 `mkdir -p /data/mongodb0`{{execute HOST1}}
 `mkdir -p /data/mongodb2`{{execute HOST1}}
 `chown -R 1000:1000 /data/mongodb*`{{execute HOST1}}
-On host2
 
+On host2
 
 `mkdir -p /data/mongodb1`{{execute HOST2}}
 `chown -R 1000:1000 /data/mongodb*`{{execute HOST2}}
 
 Since we have same type of volumes used on all nodes, it makes sense to create a Storage Class. To view the yaml file for storage class, use
 
-`cat mongodb-sc.yaml` {{execute HOST1}}
+`cat mongodb-sc.yaml`{{execute HOST1}}
 
 To create a storage class use
 
