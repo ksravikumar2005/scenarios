@@ -16,12 +16,14 @@ Create a directory on local file system to persist the mongodb data files and ch
 On host1:
 
 `mkdir -p /data/mongodb0`{{execute HOST1}}
+
 `mkdir -p /data/mongodb2`{{execute HOST1}}
 `chown -R 1000:1000 /data/mongodb*`{{execute HOST1}}
 
 On host2
 
 `mkdir -p /data/mongodb1`{{execute HOST2}}
+
 `chown -R 1000:1000 /data/mongodb*`{{execute HOST2}}
 
 Since we have same type of volumes used on all nodes, it makes sense to create a Storage Class. To view the yaml file for storage class, use
@@ -47,7 +49,9 @@ For more details on the newly created PersistentVolume
 To view the physical locations mapped to each PersistenVolume, use
 
 `kubectl describe pv/mongodb-pv0`{{execute HOST1}}
+
 `kubectl describe pv/mongodb-pv1`{{execute HOST1}}
+
 `kubectl describe pv/mongodb-pv2`{{execute HOST1}}
 
 

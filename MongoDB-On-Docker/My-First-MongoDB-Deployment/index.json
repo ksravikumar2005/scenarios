@@ -6,11 +6,11 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Preparing the cluster, volumes, etc.,",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Create Persistent Volume Claims",
         "text": "step2.md"
       },
       {
@@ -33,6 +33,6 @@
     "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "kubernetes"
+    "imageid": "kubernetes-cluster"
   }
 }

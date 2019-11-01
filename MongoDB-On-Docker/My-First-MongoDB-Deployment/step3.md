@@ -1,7 +1,7 @@
 
 With the necessary volumes in place, we are now ready to bring up the first Mongodb Deployment. Take a few seconds to see the pod definition
 
-`cat mongodb-pod-definition.yaml`{{execute HOST1}}
+`cat mongodb-deployment.yaml`{{execute HOST1}}
 
 Launch the pod
 
