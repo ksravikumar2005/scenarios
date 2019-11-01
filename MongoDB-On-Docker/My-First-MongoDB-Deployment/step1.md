@@ -18,6 +18,7 @@ On host1:
 `mkdir -p /data/mongodb0`{{execute HOST1}}
 
 `mkdir -p /data/mongodb2`{{execute HOST1}}
+
 `chown -R 1000:1000 /data/mongodb*`{{execute HOST1}}
 
 On host2
@@ -53,7 +54,3 @@ To view the physical locations mapped to each PersistenVolume, use
 `kubectl describe pv/mongodb-pv1`{{execute HOST1}}
 
 `kubectl describe pv/mongodb-pv2`{{execute HOST1}}
-
-
-
-

@@ -14,11 +14,11 @@
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Bring up the first deployment with 3 replicas",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Verification and Cleanup",
         "text": "step4.md"
       }
     ],
