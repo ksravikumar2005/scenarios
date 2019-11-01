@@ -34,7 +34,7 @@
     },
     {
       "course_id": "My-First-MongoDB-Deployment",
-      "title": "Coming Soon.. My First Mongo Deployment on Kubernetes",
+      "title": "My First Mongo Deployment on Kubernetes",
       "description": "Learn how to run Mongo as a Kubernetes Deployment"
     },
     {
