@@ -9,11 +9,11 @@ Launch the pod
  
 To check the status of the newly created deployment, use
 
-`kubectl get deployments`{{execute HOST1}}
+`kubectl -n mongodb get deployments`{{execute HOST1}}
 
 To check the status of the newly created pod, use
 
-`kubectl get pods`{{execute HOST1}}
+`kubectl -n mongodb get pods`{{execute HOST1}}
 
 
 Initially, you will see that the pod status is not ready as Kubernetes is busy doing its background work needed to bring up the pod.
@@ -23,7 +23,7 @@ Initially, you will see that the pod status is not ready as Kubernetes is busy d
 
 Once everything is ready, should see the status as
 
-`kubectl get pods`{{execute}}
+`kubectl -n mongodb get pods`{{execute}}
 
 	NAME      READY   STATUS    RESTARTS   AGE
 	mongodb   1/1     Running   0          2m33s
@@ -31,5 +31,5 @@ Once everything is ready, should see the status as
 
 To get a detailed description of the newly created deployment, use 
 
-`kubectl describe deploy/mongodb-deployment`{{execute}}
+`kubectl -n mongodb describe deploy/mongodb-deployment`{{execute}}
 

@@ -4,7 +4,7 @@ To cleanup the deployment, pods, volumes, etc.,
 
 To confirm the cleanup
 
-`kubectl get pods,pv,pvc`{{execute}}
+`kubectl -n mongodb get pods,pv,pvc`{{execute}}
 
 To bring up the whole setup again, you can use the command
 

@@ -11,6 +11,18 @@ Clone the git repo that has files to get started.
 
 `cd mongodb-k8s/deployment`{{execute HOST1}}
 
+Create a namespace for this deployment to confine all resources to this namespace: mongodb
+
+`kubectl create namespace mongodb`{{execute HOST1}}
+
+Display the created namespace
+
+`kubectl get ns`{{execute HOST1}}
+
+and for more details...
+
+`kubectly describe ns/mongodb`{{execute HOST2}}
+
 Create a directory on local file system to persist the mongodb data files and change the ownership to 1000:1000 as the mongodb userid:groupid used in the image is 1000:1000
 
 On host1:

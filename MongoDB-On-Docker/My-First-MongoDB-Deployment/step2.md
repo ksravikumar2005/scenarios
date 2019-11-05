@@ -9,10 +9,10 @@ To create a PersistentVolumeClaim, use
 
 To list the available PersistentVolumeClaims, use
 
-`kubectl get pvc`{{execute HOST1}}
+`kubectl -n mongodb get pvc`{{execute HOST1}}
 
 Here, you will see that the PersistentVolumeClaim is now using the PersistentVolume that was created previously.
 
 For more detailed description of the PersistentVolumeClaim, use
 
-`kubectl describe persistentvolumeclaim/mongodb-data-0`{{execute HOST1}}
+`kubectl -n mongodb describe persistentvolumeclaim/mongodb-data-0`{{execute HOST1}}
