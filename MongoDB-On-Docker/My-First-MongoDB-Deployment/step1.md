@@ -21,7 +21,7 @@ Display the created namespace
 
 and for more details...
 
-`kubectly describe ns/mongodb`{{execute HOST2}}
+`kubectl describe ns/mongodb`{{execute HOST1}}
 
 Create a directory on local file system to persist the mongodb data files and change the ownership to 1000:1000 as the mongodb userid:groupid used in the image is 1000:1000
 
